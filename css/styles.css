@@ -853,7 +853,7 @@ header {
 
 
 
-.subscription-form-checkbox-input:checked + .user-privacy-label {
+.subscription-form-checkbox-input:checked + .user-privacy-label .user-privacy-span {
     background-color: var(--modal-checkbox-background);
     border: none;
     fill: var(--modal-checkbox);
