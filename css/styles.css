@@ -10,6 +10,9 @@
     --primary-text-color: #555555;
     --currentColor: none;
     --modal-label:#8e8f99;
+    --modal-link: #4d5ae5;
+    --modal-checkbox-fill: #F4F4FD;
+    --modal-checkbox-background: #404bbf; 
 }
 
 .visually-hidden {
@@ -820,6 +823,10 @@ header {
     color: #4d5ae5  ;
 }
 
+.privacy-link {
+    color:  var(--modal-link);
+}
+
 .modal-form-submit{
     display: block;
     min-width: 169px;
@@ -839,4 +846,11 @@ header {
     line-height: 1.5;
     letter-spacing: 0.04em;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);    
+    margin: 1rem auto;
+}
+
+.subscription-form-checkbox-input:checked + user-user-privacy {
+    background-color: var(--modal-checkbox-background);
+    border: none;
+    fill: var(--modal-checkbox);
 }
