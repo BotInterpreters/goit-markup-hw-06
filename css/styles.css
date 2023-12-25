@@ -9,10 +9,10 @@
     --social-icon: #f4f4fd;
     --primary-text-color: #555555;
     --currentColor: none;
-    --modal-label:#8e8f99;
+    --modal-label: #8e8f99;
     --modal-link: #4d5ae5;
     --modal-checkbox-fill: #F4F4FD;
-    --modal-checkbox-background: #404bbf; 
+    --modal-checkbox-background: #404bbf;
 }
 
 .visually-hidden {
@@ -498,7 +498,7 @@ header {
 }
 
 .portfolio-link:hover .image-link-text,
-.portfolio-link:focus .image-link-text{
+.portfolio-link:focus .image-link-text {
     transform: translateY(0%);
 }
 
@@ -630,14 +630,15 @@ header {
         border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-button:hover, .modal-button:focus {
+.modal-button:hover,
+.modal-button:focus {
     background-color: #404bbf;
     border: none;
 }
 
 .modal-button:focus .modal-svg,
 .modal-button:hover .modal-svg {
-    fill: #ffffff; 
+    fill: #ffffff;
 }
 
 .modal-svg {
@@ -649,7 +650,7 @@ header {
 }
 
 /* Homework 6 */
-.subscription-form-text{
+.subscription-form-text {
     margin-bottom: 16px;
     font-weight: 500;
     font-size: 16px;
@@ -658,7 +659,7 @@ header {
     color: #ffffff;
 }
 
-.subscription-form-footer{
+.subscription-form-footer {
     display: flex;
     gap: 24px;
 }
@@ -690,13 +691,13 @@ header {
     letter-spacing: 0.04em;
     color: #ffffff;
     cursor: pointer;
-    border-radius: 4px;       
+    border-radius: 4px;
     background-color: #4D5AE5;
     border: none;
 }
 
-.subscribe-button-svg{
-  margin-left: 16px;
+.subscribe-button-svg {
+    margin-left: 16px;
 }
 
 ::placeholder {
@@ -717,7 +718,7 @@ header {
     margin-bottom: 8px;
 }
 
-.subscription-form-label{
+.subscription-form-label {
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8e8f99;
@@ -729,7 +730,7 @@ header {
     position: relative;
 }
 
-.subscription-modal-input{
+.subscription-modal-input {
     width: 100%;
     height: 40px;
     border: 1px solid rgba(46, 47, 66, 0.4);
@@ -744,7 +745,7 @@ header {
     border-color: #4D5AE5;
 }
 
-.subscribe-modal-svg{
+.subscribe-modal-svg {
     position: absolute;
     left: 16px;
     top: 50%;
@@ -752,11 +753,11 @@ header {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.subscription-modal-input:focus > subscribe-modal-svg{
-    fill:  #4D5AE5;
+.subscription-modal-input:focus>subscribe-modal-svg {
+    fill: #4D5AE5;
 }
 
-.subscription-modal-form-label{
+.subscription-modal-form-label {
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
@@ -765,7 +766,7 @@ header {
     margin-bottom: 4px;
 }
 
-.subscription-form-modal-comment{
+.subscription-form-modal-comment {
     margin-bottom: 16px;
 }
 
@@ -785,17 +786,15 @@ header {
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.comment-text-area:focus{
+.comment-text-area:focus {
     border-color: #4D5AE5;
 }
 
-.subscription-form-checkbox{
+.subscription-form-checkbox {
     margin-bottom: 24px;
 }
 
-.subscription-form-checkbox-input{
-
-}
+.subscription-form-checkbox-input {}
 
 .user-privacy-label {
     display: block;
@@ -805,21 +804,21 @@ header {
     color: var(--modal-label);
 }
 
-.user-privacy-span{
+.user-privacy-span {
     width: 16px;
     height: 16px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 2px;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
-                border 250ms cubic-bezier(0.4, 0, 0.2, 1), 
-                fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    fill: transparent;            
+    fill: transparent;
 }
 
-.privacy-svg:checked{
+.privacy-svg:checked {
     background-color: var(--modal-checkbox-background);
     border: none;
     fill: var(--modal-checkbox);
@@ -827,10 +826,10 @@ header {
 }
 
 .privacy-link {
-    color:  var(--modal-link);
+    color: var(--modal-link);
 }
 
-.modal-form-submit{
+.modal-form-submit {
     display: block;
     min-width: 169px;
     height: 56px;
@@ -848,11 +847,17 @@ header {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);    
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     margin: 1rem auto;
 }
 
-.subscription-form-checkbox-input:checked .user-privacy-span{
+.subscription-form-checkbox-input:checked {
+    background-color: var(--modal-checkbox-background);
+    border: none;
+    fill: var(--modal-checkbox);
+}
+
+.subscription-form-checkbox-input:checked + .user-privacy-span {
     background-color: var(--modal-checkbox-background);
     border: none;
     fill: var(--modal-checkbox);
