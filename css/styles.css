@@ -851,11 +851,11 @@ header {
     margin: 1rem auto;
 }
 
-.subscription-form-checkbox-input:checked {
+/* .subscription-form-checkbox-input:checked + .user-privacy-span {
     background-color: var(--modal-checkbox-background);
     border: none;
     fill: var(--modal-checkbox);
-}
+} */
 
 .subscription-form-checkbox-input:checked + .user-privacy-span {
     background-color: var(--modal-checkbox-background);
