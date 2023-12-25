@@ -819,8 +819,11 @@ header {
     fill: transparent;            
 }
 
-.privacy-svg{
-    color: #4d5ae5  ;
+.privacy-svg:checked{
+    background-color: var(--modal-checkbox-background);
+    border: none;
+    fill: var(--modal-checkbox);
+    outline: 2px solid red;
 }
 
 .privacy-link {
@@ -849,8 +852,9 @@ header {
     margin: 1rem auto;
 }
 
-.subscription-form-checkbox-input:checked {
+.user-privacy-span:checked {
     background-color: var(--modal-checkbox-background);
     border: none;
     fill: var(--modal-checkbox);
+    outline: 2px solid red;
 }
