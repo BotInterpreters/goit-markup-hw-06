@@ -733,6 +733,7 @@ header {
     border-radius: 4px;
     background-color: transparent;
     padding-left: 38px;
+    outline: transparent;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -748,7 +749,7 @@ header {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.subscribe-modal-svg:focus{
+.subscription-modal-input:focus > subscribe-modal-svg{
     fill:  #4D5AE5;
 }
 
@@ -794,6 +795,7 @@ header {
 }
 
 .user-privacy-label {
+    display: block;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
@@ -815,5 +817,5 @@ header {
 }
 
 .privacy-svg{
-    
+
 }
