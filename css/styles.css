@@ -849,7 +849,7 @@ header {
     margin: 1rem auto;
 }
 
-.subscription-form-checkbox-input:checked + user-user-privacy {
+.subscription-form-checkbox-input:checked {
     background-color: var(--modal-checkbox-background);
     border: none;
     fill: var(--modal-checkbox);
