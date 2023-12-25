@@ -639,7 +639,7 @@ header {
 
 /* Homework 6 */
 .subscription-container {
-
+    margin: 1rem auto;
 }
 
 .subscription-form-text{
@@ -657,7 +657,7 @@ header {
 }
 
 .subscription-form-input {
-    width: 26px;
+    width: 264px;
     height: 40px;
     border: 1px solid #ffffff;
     background-color: transparent;
@@ -671,7 +671,7 @@ header {
 }
 
 .subscribe-submit {
-    min-width: 16px;
+    min-width: 165px;
     height: 40px;
     display: flex;
     justify-content: center;
@@ -684,8 +684,14 @@ header {
     color: #ffffff;
     cursor: pointer;
     border-radius: 4px;       
+    background-color: #4D5AE5;
+    border: none;
 }
 
 .subscribe-button-svg{
+  margin-left: 16px;
+}
 
+::placeholder {
+    color: #ffffff;
 }
