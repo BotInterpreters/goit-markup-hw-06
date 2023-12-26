@@ -851,10 +851,8 @@ header {
     margin: 1rem auto;
 }
 
-.subscription-form-checkbox-input:focus + .user-privacy-label .user-privacy-span {
-    background-color: var(--modal-checkbox-background);
-    border: none;
-    fill: var(--modal-checkbox-fill);
+.subscription-modal-input:focus .subscribe-modal-svg {
+    fill: #4D5AE5;
 }
 
 
